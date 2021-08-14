@@ -1,11 +1,12 @@
 
 import {NBSObject} from '@nbsolutions/object';
+import {IVersion} from '@nbsolutions/interfaces';
 import {
     IComparable,
     ComparisonResult
 } from '@nbsolutions/util';
 
-export class Version extends NBSObject implements IComparable<Version> {
+export class Version extends NBSObject implements IVersion, IComparable<Version> {
     private $major: number;
     private $minor: number;
     private $patch: number;
