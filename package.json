@@ -55,7 +55,6 @@
   },
   "dependencies": {
     "@nbsolutions/object": "file:../object/nbsolutions-object-0.0.0.tgz",
-    "@nbsolutions/util": "file:../util/nbsolutions-util-1.0.0.tgz",
     "tslib": "2.2.0"
   }
 }

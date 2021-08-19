@@ -1,5 +1,5 @@
 
-import { ComparisonResult } from '@nbsolutions/util';
+import { ComparisonResult } from '@nbsolutions/interfaces';
 import {Version} from '../src/Version';
 
 describe('Version', () => {
