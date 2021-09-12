@@ -4,6 +4,10 @@
   "description": "Version utility for NBS framework",
   "main": "./lib/api.js",
   "types": "./types/api.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "lint": "eslint --ext .ts,.tsx '?(src|spec)/**/*.?(ts|tsx)' --cache",
     "docs": "typedoc --excludePrivate --includeVersion -readme ./README.md --out ./docs ./src",
@@ -37,24 +41,24 @@
   "homepage": "https://github.com/nbsolutions-ca/version#readme",
   "devDependencies": {
     "@nbsolutions/eslint-plugin": "1.0.0",
-    "@nbsolutions/interfaces": "file:../interfaces/nbsolutions-interfaces-0.0.0.tgz",
-    "@types/jest": "26.0.23",
-    "@typescript-eslint/eslint-plugin": "4.26.1",
-    "@typescript-eslint/parser": "4.26.1",
+    "@nbsolutions/interfaces": "0.0.0-alpha.0",
+    "@types/jest": "27.0.1",
+    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/parser": "4.29.2",
     "auto-changelog": "2.3.0",
-    "eslint": "7.27.0",
-    "jest": "26.6.3",
-    "ts-jest": "26.5.6",
-    "ts-node": "10.0.0",
-    "typedoc": "0.20.36",
-    "typedoc-plugin-markdown": "3.9.0",
-    "typescript": "4.2.4"
+    "eslint": "7.32.0",
+    "jest": "27.0.6",
+    "ts-jest": "27.0.5",
+    "ts-node": "10.2.1",
+    "typedoc": "0.21.6",
+    "typedoc-plugin-markdown": "3.10.4",
+    "typescript": "4.3.5"
   },
   "peerDependencies": {
-    "@nbsolutions/interfaces": "*"
+    "@nbsolutions/interfaces": "0.0.0-alpha.0"
   },
   "dependencies": {
-    "@nbsolutions/object": "file:../object/nbsolutions-object-0.0.0.tgz",
-    "tslib": "2.2.0"
+    "@nbsolutions/object": "0.0.0-alpha.0",
+    "tslib": "2.3.1"
   }
 }
