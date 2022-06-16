@@ -1,8 +1,6 @@
-[@nbsolutions/version - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / [Version](../modules/Version.md) / Version
+[@nbsolutions/version - v0.0.0](../README.md) / [Exports](../modules.md) / Version
 
 # Class: Version
-
-[Version](../modules/Version.md).Version
 
 ## Hierarchy
 
@@ -13,26 +11,26 @@
 ## Implements
 
 - `IVersion`
-- `IComparable`<[`Version`](Version.Version-1.md)\>
+- `IComparable`<[`Version`](Version.md)\>
 
 ## Table of contents
 
 ### Methods
 
-- [\_excludeNBSObjectAutoBindingsFor](Version.Version-1.md#_excludenbsobjectautobindingsfor)
-- [\_skipNBSObjectAutoBind](Version.Version-1.md#_skipnbsobjectautobind)
-- [compare](Version.Version-1.md#compare)
-- [getClassName](Version.Version-1.md#getclassname)
-- [getMajor](Version.Version-1.md#getmajor)
-- [getMinor](Version.Version-1.md#getminor)
-- [getPatch](Version.Version-1.md#getpatch)
-- [getPrereleaseBuild](Version.Version-1.md#getprereleasebuild)
-- [getPrereleaseLabel](Version.Version-1.md#getprereleaselabel)
-- [isPrerelease](Version.Version-1.md#isprerelease)
-- [toString](Version.Version-1.md#tostring)
-- [getClassName](Version.Version-1.md#getclassname)
-- [isVoid](Version.Version-1.md#isvoid)
-- [parse](Version.Version-1.md#parse)
+- [\_excludeNBSObjectAutoBindingsFor](Version.md#_excludenbsobjectautobindingsfor)
+- [\_skipNBSObjectAutoBind](Version.md#_skipnbsobjectautobind)
+- [compare](Version.md#compare)
+- [getClassName](Version.md#getclassname)
+- [getMajor](Version.md#getmajor)
+- [getMinor](Version.md#getminor)
+- [getPatch](Version.md#getpatch)
+- [getPrereleaseBuild](Version.md#getprereleasebuild)
+- [getPrereleaseLabel](Version.md#getprereleaselabel)
+- [isPrerelease](Version.md#isprerelease)
+- [toString](Version.md#tostring)
+- [getClassName](Version.md#getclassname-1)
+- [isVoid](Version.md#isvoid)
+- [parse](Version.md#parse)
 
 ## Methods
 
@@ -80,7 +78,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `v` | [`Version`](Version.Version-1.md) |
+| `v` | [`Version`](Version.md) |
 
 #### Returns
 
@@ -92,7 +90,7 @@ IVersion.compare
 
 #### Defined in
 
-[src/Version.ts:110](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L110)
+[src/Version.ts:110](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L110)
 
 ___
 
@@ -132,7 +130,7 @@ IVersion.getMajor
 
 #### Defined in
 
-[src/Version.ts:76](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L76)
+[src/Version.ts:76](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L76)
 
 ___
 
@@ -150,7 +148,7 @@ IVersion.getMinor
 
 #### Defined in
 
-[src/Version.ts:80](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L80)
+[src/Version.ts:80](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L80)
 
 ___
 
@@ -168,7 +166,7 @@ IVersion.getPatch
 
 #### Defined in
 
-[src/Version.ts:84](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L84)
+[src/Version.ts:84](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L84)
 
 ___
 
@@ -186,7 +184,7 @@ IVersion.getPrereleaseBuild
 
 #### Defined in
 
-[src/Version.ts:96](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L96)
+[src/Version.ts:96](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L96)
 
 ___
 
@@ -204,7 +202,7 @@ IVersion.getPrereleaseLabel
 
 #### Defined in
 
-[src/Version.ts:92](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L92)
+[src/Version.ts:92](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L92)
 
 ___
 
@@ -222,7 +220,7 @@ IVersion.isPrerelease
 
 #### Defined in
 
-[src/Version.ts:88](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L88)
+[src/Version.ts:88](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L88)
 
 ___
 
@@ -240,7 +238,7 @@ IVersion.toString
 
 #### Defined in
 
-[src/Version.ts:100](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L100)
+[src/Version.ts:100](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L100)
 
 ___
 
@@ -302,7 +300,7 @@ ___
 
 ### parse
 
-▸ `Static` **parse**(`versionString`): [`Version`](Version.Version-1.md)
+▸ `Static` **parse**(`versionString`): [`Version`](Version.md)
 
 #### Parameters
 
@@ -312,8 +310,8 @@ ___
 
 #### Returns
 
-[`Version`](Version.Version-1.md)
+[`Version`](Version.md)
 
 #### Defined in
 
-[src/Version.ts:25](https://github.com/nbsolutions-ca/version/blob/f608846/src/Version.ts#L25)
+[src/Version.ts:25](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L25)

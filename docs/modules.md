@@ -1,10 +1,19 @@
-[@nbsolutions/version - v0.0.0-alpha.0](README.md) / Exports
+[@nbsolutions/version - v0.0.0](README.md) / Exports
 
-# @nbsolutions/version - v0.0.0-alpha.0
+# @nbsolutions/version - v0.0.0
 
 ## Table of contents
 
-### Modules
+### References
 
-- [Version](modules/Version.md)
-- [api](modules/api.md)
+- [default](modules.md#default)
+
+### Classes
+
+- [Version](classes/Version.md)
+
+## References
+
+### default
+
+Renames and re-exports [Version](classes/Version.md)
