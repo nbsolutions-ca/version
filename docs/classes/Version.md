@@ -1,4 +1,4 @@
-[@nbsolutions/version - v0.0.0](../README.md) / [Exports](../modules.md) / Version
+[@nbsolutions/version - v0.0.1](../README.md) / [Exports](../modules.md) / Version
 
 # Class: Version
 
@@ -90,7 +90,7 @@ IVersion.compare
 
 #### Defined in
 
-[src/Version.ts:110](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L110)
+[src/Version.ts:110](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L110)
 
 ___
 
@@ -130,7 +130,7 @@ IVersion.getMajor
 
 #### Defined in
 
-[src/Version.ts:76](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L76)
+[src/Version.ts:76](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L76)
 
 ___
 
@@ -148,7 +148,7 @@ IVersion.getMinor
 
 #### Defined in
 
-[src/Version.ts:80](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L80)
+[src/Version.ts:80](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L80)
 
 ___
 
@@ -166,7 +166,7 @@ IVersion.getPatch
 
 #### Defined in
 
-[src/Version.ts:84](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L84)
+[src/Version.ts:84](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L84)
 
 ___
 
@@ -184,7 +184,7 @@ IVersion.getPrereleaseBuild
 
 #### Defined in
 
-[src/Version.ts:96](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L96)
+[src/Version.ts:96](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L96)
 
 ___
 
@@ -202,7 +202,7 @@ IVersion.getPrereleaseLabel
 
 #### Defined in
 
-[src/Version.ts:92](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L92)
+[src/Version.ts:92](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L92)
 
 ___
 
@@ -220,7 +220,7 @@ IVersion.isPrerelease
 
 #### Defined in
 
-[src/Version.ts:88](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L88)
+[src/Version.ts:88](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L88)
 
 ___
 
@@ -238,7 +238,7 @@ IVersion.toString
 
 #### Defined in
 
-[src/Version.ts:100](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L100)
+[src/Version.ts:100](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L100)
 
 ___
 
@@ -314,4 +314,4 @@ ___
 
 #### Defined in
 
-[src/Version.ts:25](https://github.com/nbsolutions-ca/version/blob/f713de6/src/Version.ts#L25)
+[src/Version.ts:25](https://github.com/nbsolutions-ca/version/blob/2f6e219/src/Version.ts#L25)
