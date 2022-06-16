@@ -55,7 +55,7 @@
     "typescript": "4.6.4"
   },
   "peerDependencies": {
-    "@nbsolutions/interfaces": "0.0.2"
+    "@nbsolutions/interfaces": "0.x"
   },
   "dependencies": {
     "@nbsolutions/object": "0.0.0",
